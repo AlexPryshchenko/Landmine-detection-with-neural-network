@@ -28,7 +28,7 @@ __train_data.txt__ - array with training data.
 
 Ultrawideband (UWB) Ground Penetrating Radar (GPR) iradiates the model of soil, which contains a mine:
 
-![physical problem](readme_photos/gif1.gif)
+![physical problem](https://github.com/AlexPryshchenko/Landmine_detection_with_ANN/blob/main/readme_files/gif1.gif)
 
 Reflected waves are receiving back to antenna system, and we obtain 4 time dependences:
 
