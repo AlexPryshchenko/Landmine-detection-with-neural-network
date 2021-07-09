@@ -88,7 +88,7 @@ All 65 cases are placed in a simple way of decreasing of distance, but you don't
 
 Neural network can be tested on noised training signals. You can see how the training signal distorts with applying an SNR below:
 
-![noise_gif](readme_photos/show_snr.gif)
+![noise_gif](https://github.com/AlexPryshchenko/Landmine_detection_with_ANN/blob/main/readme_files/show_snr.gif)
 
 Black curve - training signal. Red curves - testing signals with different SNRs.
 
@@ -102,7 +102,7 @@ Noise generation occures in "add_noise" function from data_preprocessing.py file
 
 You can set a one SNR value in ANN_testing.py, or a range of SNR values in ANN_testing_with_animation.py and get this animation: 
 
-![rusult](readme_photos/result.gif)
+![rusult](https://github.com/AlexPryshchenko/Landmine_detection_with_ANN/blob/main/readme_files/result.gif)
 
 Here you can see a signal distortion, 2D visualization which serves as interpretaion of 65 output neurons and 3D bar figure for more detailed look of appearing errors. It is very usefull for fast estimation of neural network effectivness.
 
