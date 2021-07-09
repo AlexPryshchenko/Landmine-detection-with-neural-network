@@ -38,7 +38,7 @@ First peak (1) - is an reflection from a ground, second one (2) - reflection fro
 
 If you look closer to these 4 signals, you can see that 3 and 4 signals are like a mirror reflection of 1 and 2. And if you plus them - you exactly will decrese the first pick (1) and increse the second one (2) (But the total amplitude will be lower). Also there is a six unique combinations of adding and substraction of these 4 signals:
 
-![6 signals](readme_photos/fig2.png)
+![6 signals](https://github.com/AlexPryshchenko/Landmine_detection_with_ANN/blob/main/readme_files/fig2.png)
 
 We stitch them together and this data will serve as an input data for neural network.
 
@@ -51,18 +51,18 @@ __"four_to_six"__ function from __data_preprocessing.py__ makes a transformation
 
 In this project we have 2 mines under consideration. First is PMN-1 mine:
 
-![pmn 1](readme_photos/PMN-1.png)
+![pmn 1](https://github.com/AlexPryshchenko/Landmine_detection_with_ANN/blob/main/readme_files/PMN-1.png)
 
 Second is PMN-4 mine:
 
-![pmn 4](readme_photos/PMN-4.png)
+![pmn 4](https://github.com/AlexPryshchenko/Landmine_detection_with_ANN/blob/main/readme_files/PMN-4.png)
 
 They are both of 10cm diameter and have metal detonation meschanism __(1)__, explosive material __(2)__ and dielectric body __(3)__.
 Main difference between them is that PMN-4 has much bigger metal meschanism than PMN-1, which definitely gives much more stronger reflection of reflected field.
 
 Also it is important to take into account some false objects in real ground, like metal cans. Thus metal cans in a different shapes were placed to the ground:
 
-![cans](readme_photos/cans.png)
+![cans](https://github.com/AlexPryshchenko/Landmine_detection_with_ANN/blob/main/readme_files/cans.png)
 
 Fist one is a can without the cap, second one - can with opened cap and the third - can with closed cap, which forms a slot between its body and its cap.
 
