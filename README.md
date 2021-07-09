@@ -32,7 +32,7 @@ Ultrawideband (UWB) Ground Penetrating Radar (GPR) iradiates the model of soil, 
 
 Reflected waves are receiving back to antenna system, and we obtain 4 time dependences:
 
-![4 signals](readme_photos/fig1.png)
+![4 signals](https://github.com/AlexPryshchenko/Landmine_detection_with_ANN/blob/main/readme_files/fig1.png)
 
 First peak (1) - is an reflection from a ground, second one (2) - reflection from the underground object. Second peak contains more usefull information, so we have to somehow increase its influence in time dependence. 
 
