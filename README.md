@@ -94,7 +94,7 @@ Black curve - training signal. Red curves - testing signals with different SNRs.
 
 SNR (Signal-to-noise ration) is a is a measure used in science and engineering that compares the power of a desired signal to the power of background noise. It can be expressed by formula:
 
-$$ SNR=\frac{P_{signal}}{P_{noise}} $$
+<img src="https://render.githubusercontent.com/render/math?math=SNR=\frac{P_{signal}}{P_{noise}}">
 
 Noise generation occures in "add_noise" function from data_preprocessing.py file.
 
