@@ -12,7 +12,7 @@ This project demonstrates an artificial intellegence approach to detect and reco
 ## __Project overview:__
 ---
 
- __model1.h5 - saved TF model
+ __model1.h5__ - saved TF model
 
 __ANN_training.py__ - code to create, tune and train neural network.
 
