@@ -9,7 +9,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # ignore unuseful massages from tensor
 
 # this program creates an animation by which you can trace the ANN answer dependending on increasing the noise
 
-model = keras.models.load_model('ANN_1/')  # load neural network
+model = keras.models.load_model('model1.h5')  # load neural network
 test_data = np.loadtxt("train_data.txt", delimiter=",")  # load training data
 # in this project we will test the ANN on the noised train data
 
@@ -126,4 +126,3 @@ my_animation = ArtistAnimation(
     repeat=True)
 
 plt.show()
-

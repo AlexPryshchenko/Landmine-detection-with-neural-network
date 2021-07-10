@@ -38,11 +38,11 @@ model.compile(optimizer='adam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
 
-his = model.fit(x_train, y_train, epochs=100, batch_size=5)
+his = model.fit(x_train, y_train, epochs=150, batch_size=5)
 
 plt.plot(his.history['loss'])
 plt.grid()
 plt.show()
 
 # # uncomment to save other networks:
-# model.save('ANN_2_valid/')
+# model.save('model1.h5')

@@ -4,7 +4,7 @@ from data_preprocessing import four_to_six, set_index, visualize
 from tensorflow import keras
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # ignore unuseful massages from tensorflow
 
-model = keras.models.load_model('ANN_1/')  # load neural network
+model = keras.models.load_model('model1.h5')  # load neural network
 test_data = np.loadtxt("train_data.txt", delimiter=",")  # load train data
 # in this project we will test the ANN on the noised train data
 
@@ -14,7 +14,7 @@ obj_and_pos = 'PMN-4_25cm'  # here you can set which object on which distance yo
 # distances = ['_0cm', '_5cm', '_10cm', '_15cm', '_20cm', '_25cm', '_30cm', '_35cm']
 test_sig_index = set_index(obj_and_pos)  # returns the index of signal of desired object and position
 SNR = 30  # Signal-to-Noise Ratio. The lower the ratio, the bigger the distortions
-M = 10  # number of iterations. Every SNR realization is quite unique because of random nature
+M = 500  # number of iterations. Every SNR realization is quite unique because of random nature
 # We need to obtain a result depending not on the realization sample but on the
 # power of noise. Thus the best way is to make a big number of realizations to exclude
 # a random impact for the answer. The bigger number of realizations (M) - the lower random impact is.
